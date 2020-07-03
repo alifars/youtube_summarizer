@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -26,7 +25,8 @@ def gather_text(transcript_list):
 
 
 def process_text(full_text):
-    clean_text = "".join(map(str, full_text))
+    clean_text = " ".join(map(str, full_text))
+    print(clean_text)
     return clean_text
 
 

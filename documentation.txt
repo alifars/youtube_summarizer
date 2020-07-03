@@ -1,0 +1,8 @@
+
+
+
+
+ssh -i "aws.pem" ubuntu@ec2-3-17-182-250.us-east-2.compute.amazonaws.com
+
+
+ssh -i "aws_vm.pem" ubuntu@ec2-3-17-182-250.us-east-2.compute.amazonaws.com
