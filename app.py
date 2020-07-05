@@ -81,4 +81,3 @@ summarized_text
 
 
 
-streamlit run app.py
