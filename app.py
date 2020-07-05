@@ -10,7 +10,7 @@ nlp = spacy.load("en_core_web_sm")
 
 st.title("YouTube Summary Generator")
 
-video_url = st.text_input("Input Video Url", "https://www.youtube.com/watch?v=xJ3e0RDbT1w&t=158s")
+video_url = st.text_input("Input Video Url", "https://www.youtube.com/watch?v=eu7TGK-PCRU")
 
 def extract_video_id(url):
     query = urlparse(url)
